@@ -7,8 +7,6 @@ class RakeCompletion < Formula
 
   head "https://github.com/mernen/completion-ruby.git"
 
-  bottle :unneeded
-
   def install
     bash_completion.install "completion-rake" => "rake"
   end
